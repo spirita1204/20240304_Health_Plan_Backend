@@ -29,6 +29,11 @@
 			<artifactId>druid</artifactId>
 			<version>1.0.9</version>
 		</dependency>
+		<!-- 連接mongoDB驅動 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
