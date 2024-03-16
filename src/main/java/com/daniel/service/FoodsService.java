@@ -1,6 +1,7 @@
 package com.daniel.service;
 
 import com.daniel.dto.RecipeRs;
+import com.daniel.dto.SaveFoodsRq;
 import com.daniel.dto.SearchFoodsRs;
 
 public interface FoodsService {
@@ -17,4 +18,12 @@ public interface FoodsService {
    * @return
    */
   SearchFoodsRs searchFood(String searchText);
+  
+  /**
+   * 用於儲存食物資料
+   * 
+   * @param saveFoodsRq
+   * @return
+   */
+  boolean saveFoods(SaveFoodsRq saveFoodsRq);
 }
